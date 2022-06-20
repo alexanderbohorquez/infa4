@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER EN CSS</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero" id="inicio">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="images/logoinfa.png"  width="120px">
+                <p>
+                    la diferencia esta en nuestro servicio
+                </p>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#servicios" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#quienes" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Clientes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="login.html" class="nav__links">Acceso</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">TRANSPORTAMOS Y ADMINISTRAMOS TUS PRODUCTOS EN LA CADENA LOGISTICA Y DISTRIBUCION FISICA</h1>
+            <p class="hero__paragraph">JUSTO A
+                TIEMPO Y EN EL LUGAR INDICADO</p>
+            <a href="#" class="cta">+ INFO</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" id="servicios">
+            <h2 class="subtitle">¿Qué ofrecemos para ayudarlo a importar sin riesgos?</h2>
+
+
+            <div class="about__main">
+                <article class="about__icons">
+
+                    <h3 class="about__title">Logística marítima o aérea</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
+                        porro eius facilis?</p>
+                </article>
+
+                <article class="about__icons">
+                    <h3 class="about__title">Trámites de importación</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
+                        porro eius facilis?</p>
+                </article>
+
+                <article class="about__icons">
+                    <h3 class="about__title">nacionalización de la mercancía</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
+                        porro eius facilis?</p>
+                </article>
+            </div >
+        </section>
+
+        <section class="knowledge"id="quienes">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">INFA</h2>
+                    <p class="knowledge__paragraph">Como agencia de aduanas cumplimos con los más altos estándares de conocimiento técnico y agilidad para la intermediación en los procesos de importación y exportación de todo tipo de mercancías. Hoy en día podemos considerarnos una organización multifuncional capaz de ofrecerle todo tipo de soluciones logísticas, ya sea directamente o a través de nuestros aliados estratégicos.</p>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/macbook.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Alexander Bohorquez<span class="testimony__course">estudiante
+                                de ADSI</span></h2>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/avatar1.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Miguel Onofre, <span class="testimony__course">estudiante de
+                                ADSI</span></h2>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/avatar3.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Alejandro Carrion, <span class="testimony__course">estudiante de
+                                ADSI</span></h2>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/avatar2.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title" id="contacto">Contáctanos</h2>
+                <P class="footer__copyright" style="color: #FFF;">+57 321 3215486</P>
+                <P class="footer__copyright" style="color: #FFF;">Contacto@infa.com</P>
+                <P class="footer__copyright" style="color: #FFF;">Bogota, Colombia</P>
+
+                
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Mas información</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Celular:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Solicitar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; GAES 6</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
